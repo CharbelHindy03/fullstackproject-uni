@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nutrition Tips</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+  <style>
+    .tips-header {
+      background: url('images/vegetables.jpg') no-repeat center center/cover;
+      height: 50vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .tips-header h1 {
+      font-size: 3rem;
+      background-color: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .tip-icon {
+      font-size: 2rem;
+      color: #28a745;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+     <a class="navbar-brand fw-bold" href="#">NutriWise</a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="facts.html" class="nav-link">Nutrition Facts</a></li>
+        <li class="nav-item"><a href="tips.html" class="nav-link active fw-bold">Tips</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <div class="tips-header">
+    <h1 class="animate__animated animate__fadeInDown">Top Daily Nutrition Tips</h1>
+  </div>
+
+  <!-- Tips Section -->
+  <div class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4 animate__animated animate__fadeInUp">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><span class="tip-icon">🥦</span> Eat More Veggies</h5>
+            <p class="card-text">Incorporate a variety of colorful vegetables into your meals. They’re rich in vitamins and fiber.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-1s">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><span class="tip-icon">💧</span> Stay Hydrated</h5>
+            <p class="card-text">Drink at least 8 glasses of water daily to keep your body functioning at its best.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-2s">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><span class="tip-icon">🍯</span> Cut Processed Sugar</h5>
+            <p class="card-text">Avoid sugary snacks and beverages. Opt for fruits or natural sweeteners like honey.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-light mt-5">
+    <p>&copy; 2025 NutriWise. Eat well, live well.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
